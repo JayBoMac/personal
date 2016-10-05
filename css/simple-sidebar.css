@@ -21,7 +21,7 @@
 #wrapper.toggled {
     padding-left: 250px;
 }
-
+/*Changing the wrapper color*/
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -30,7 +30,7 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
+    background: #f00;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -67,11 +67,11 @@
     text-indent: 20px;
     line-height: 40px;
 }
-
+/*Change color to red*/
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: #f00;
 }
 
 .sidebar-nav li a:hover {
